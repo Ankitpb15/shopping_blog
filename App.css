@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
 }
 
 .App {
@@ -10,10 +11,28 @@ body {
 }
 
 .header, .footer {
-  background-color: #282c34;
+  background-color: #343a40;
   color: white;
   text-align: center;
   padding: 1rem;
+}
+
+.toolbar {
+  background-color: #495057;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.toolbar a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.toolbar a:hover {
+  text-decoration: underline;
 }
 
 .main-content {
@@ -24,7 +43,8 @@ body {
 }
 
 .article {
-  background-color: #f0f0f0;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 1rem 0;
   padding: 1rem;
   border-radius: 5px;
